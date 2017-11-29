@@ -14,9 +14,7 @@
           width: 100% !important;
         }
       }
-
       @media screen and (max-width: 320px) {
-
         .email-title {
           font-size: 20px !important;
           line-height: 30px !important;
@@ -25,24 +23,22 @@
         .email-intro {
           font-size: 14px !important;
           line-height: 21px !important; }
-
       }
-
       @media screen and (min-width: 321px) and (max-width: 375px) {
-
         .email-title {
           font-size: 22px !important;
           line-height: 36px !important; }
 
       }
-
       .client-link a {
         color: #3a383a !important;
       }
-
       td {
         -ms-text-size-adjust:none;
         -webkit -text-size-adjust:none;
+      }
+      table {
+        margin: 0 auto!important;
       }
     </style>
     <!--[if gte mso 12]>
@@ -92,11 +88,9 @@
             <tr>
               <td style="font-size: 0; text-align: center;">
                 <div style="display: inline-block;">
-
                   <table align="left" border="0" cellpadding="0" cellspacing="0" class="width-full" width="300">
                     <tr>
                       <td>
-
                         <table border="0" cellpadding="0" cellspacing="0" style="text-align: center; text-transform: uppercase;" width="300">
                           <tr>
                             <td>
@@ -126,18 +120,20 @@
                             </td>
                           </tr>
                         </table>
-
                       </td>
                     </tr>
                   </table>
-
                 </div>
-                <div style="display: inline-block;">
 
+                  <!--[if (IE)|(mso)]>
+                    </td>
+                    <td>
+                   <![endif]-->
+
+                <div style="display: inline-block;">
                   <table align="left" border="0" cellpadding="0" cellspacing="0" class="width-full" width="300">
                     <tr>
                       <td>
-
                         <table border="0" cellpadding="0" cellspacing="0" style="text-align: center; text-transform: uppercase;" width="300">
                           <tr>
                             <td>
@@ -167,14 +163,18 @@
                             </td>
                           </tr>
                         </table>
-
                       </td>
                     </tr>
                   </table>
-
                 </div>
-              </td></tr>
+              </td>
+            </tr>
           </table>
+          <!--[if (mso)|(IE)]>
+                </td>
+              </tr>
+            </table>
+          <![endif]-->
           <!--[if (mso)|(IE)]>
             <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
               <tr>
@@ -200,12 +200,17 @@
               </tr>
             </table>
           <![endif]-->
+          <!--[if (mso)|(IE)]>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+              <tr>
+                <td>
+          <![endif]-->
           <table align="center" border="0" cellpadding="0" cellspacing="0" class="width-full" style="max-width: 600px;" width="100%">
             <tr>
-                <td align="center" style="color: #3a383a; font-family: Georgia, serif; font-size: 18px; font-weight: bold; line-height: 18px; padding-top: 20px;">
-                  Or, call <span class="client-link">+90 12 3456 7890</span>
-                </td>
-              </tr>
+              <td align="center" style="color: #3a383a; font-family: Georgia, serif; font-size: 18px; font-weight: bold; line-height: 18px; padding-top: 20px;">
+                Or, call <span class="client-link">+90 12 3456 7890</span>
+              </td>
+            </tr>
             <tr>
               <td align="center" style="color: #545154; font-family: Georgia, serif; font-size: 12px; padding-top: 40px;">
                 No mas? <a href="http://example.org" style="color: #545154;">Unsubscribe</a>
@@ -226,8 +231,8 @@
           <!--[if (mso)|(IE)]>
                 </td>
               </tr>
-          </table>
-        <![endif]-->
+            </table>
+          <![endif]-->
         </td>
       </tr>
     </table>
